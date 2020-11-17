@@ -1,0 +1,8 @@
+language: ruby
+cache: bundler
+sudo: false
+
+rvm:
+  - 2.4.1
+
+script: ruby --version
